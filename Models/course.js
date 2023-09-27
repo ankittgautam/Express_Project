@@ -44,6 +44,9 @@ const CourseSchema = new mongoose.Schema({
     status:{
         type:String,
         default:'Pending',
+    },
+    comment:{
+        type:String,
     }
 
 },{timestamps:true})
